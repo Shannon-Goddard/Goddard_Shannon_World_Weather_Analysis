@@ -33,13 +33,10 @@ For the new modifications to the PlanMyTrip app, we are asked to add more data t
 ## Part 1
 ### Get the Weather Description and Amount of Precipitation for Each City
 
-To complete this task, we followed these steps:
-
-Create a new Jupyter Notebook file and name it Weather_Database.ipynb.
-Generate a new set of 1,500 random latitudes and longitudes.
-Get the nearest city using the citipy module.
-Perform an API call with the OpenWeatherMap.
-Retrieve the following information from the API call: 
+We generated a new set of 1,500 random latitudes and longitudes.<br/>
+Got the nearest city using the citipy module.<br/>
+Performed an API call with the OpenWeatherMap.<br/>
+Retrieved the following information from the API call:<br/> 
 - Latitude and longitude
 - Maximum temperature
 - Percent humidity
