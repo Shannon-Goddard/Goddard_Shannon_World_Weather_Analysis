@@ -44,8 +44,13 @@ Our new DataFrame should look similar to the following image:
 
 ## Part 2 
 ### Have Customers Narrow Their Travel Searches Based on Temperature and Precipitation
-
-Our new hotel DataFrame should look similar to the following image:
+We imported the WeatherPy_vacation.csv file from Part 1 as a new DataFrame.
+Filter the DataFrame for minimum and maximum temperature preferences, and if the rain or snow accumulation is 0 inches or not using conditional statements. Doing the following: 
+- Prompt the customer for the minimum temperature preference.
+- Prompt the customer for the maximum temperature preference.
+- Prompt the customer to answer if he or she would like it to be raining or not, using input("Do you want it to be raining? (yes/no) ").
+- Prompt the customer to answer if he or she would like it to be snowing or not, using input("Do you want it to be snowing? (yes/no) ").
+- Our new hotel DataFrame looks similar to the following image:
 
 ### WeatherPy_challenge DataFrame <br/>
 | City    | Country | Max Temp | Current Description | Lat | Lng | Hotel Name |  
@@ -53,6 +58,12 @@ Our new hotel DataFrame should look similar to the following image:
 | Castro  | CL      | 48.20    | scatterd clouds     | -42.48  | -73.76 | Hotel Gulmarg  | 
 | Lebu    | ET      | 58.69    | light rain          | 8.96    | 38.73  | Jolysable      | 
 | Sitka   | US      | 90.00    | clearsky            | 37.17   | -99.65 | Village Belart | 
+<br/>
+From the filtered DataFrame we added the cities to a marker layer map with a pop-up marker for each city that includes: 
+- Hotel name
+- City
+- Country
+- Current weather description with the maximum temperature
 
 ![MarkerMap](https://github.com/Shannon-Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_vacation_map1.png)
 
