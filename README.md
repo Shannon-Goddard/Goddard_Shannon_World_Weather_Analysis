@@ -87,7 +87,9 @@ From the filtered DataFrame we added the cities to a marker layer map with a pop
 ### Create a Travel Itinerary with a Corresponding Map
 We created a map (travel itinerary) that shows the route between four cities from the customer’s possible travel destinations, and then created a map with pop-up markers for the four cities, by:
 
-Importing the WeatherPy_vacation.csv file as a new DataFrame. From the vacation search map, we chose four cities in close proximity on our map that are on the same continent that a customer might travel to, and then created a directions layer map. 
+Importing the WeatherPy_vacation.csv file as a new DataFrame. From the vacation search map, we chose four cities in close proximity on our map that are on the same continent that a customer might travel to, and then created a directions layer map.
+
+![WeatherPy_travel_map_markers](https://github.com/Shannon-Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_travel_map_markers.png)
 
 - We Filtered the DataFrame for each city we wanted to go to and created separate DataFrames for each city.
 - Used the directions Layer instructions from the gmaps documentation
