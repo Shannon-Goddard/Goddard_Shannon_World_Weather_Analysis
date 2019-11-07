@@ -54,6 +54,9 @@ Our new hotel DataFrame should look similar to the following image:
 | Lebu    | ET      | 58.69    | light rain          | 8.96    | 38.73  | Jolysable      | 
 | Sitka   | US      | 90.00    | clearsky            | 37.17   | -99.65 | Village Belart | 
 
+![MarkerMap](https://github.com/Shannon-Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_vacation_map1.png)
+
+
 
 
 
