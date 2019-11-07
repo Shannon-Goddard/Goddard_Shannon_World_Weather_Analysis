@@ -33,7 +33,24 @@ For the new modifications to the PlanMyTrip app, we are asked to add more data t
 ## Part 1
 ### Get the Weather Description and Amount of Precipitation for Each City
 
-Our new DataFrame should look similar to the following image:
+To complete this task, we followed these steps:
+
+Create a new Jupyter Notebook file and name it Weather_Database.ipynb.
+Generate a new set of 1,500 random latitudes and longitudes.
+Get the nearest city using the citipy module.
+Perform an API call with the OpenWeatherMap.
+Retrieve the following information from the API call: 
+- Latitude and longitude
+- Maximum temperature
+- Percent humidity
+- Percent cloudiness
+- Wind speed
+- Weather description (e.g., clouds, fog, light rain, clear sky)
+- Using a try-except block, if it is raining, get the amount of rainfall in inches for the last three hours. If it is not raining, add 0 inches for the city.
+- Using a try-except block, if it is snowing, get the amount of snow in inches for the last three hours. If it is not snowing, add 0 inches for the city.
+Add the data to a new DataFrame.
+
+Our new DataFrame looks similar to the following image:
 
 ### WeatherPy_challenge DataFrame <br/>
 | City    | Country | Date | Lat | Lng | Max Temp | Humidity | Cloudiness | Wind Speed | Current Dscription | Rain Inches (last 3 hours | Snow Inches (last 3 hours) |  
@@ -50,7 +67,8 @@ Filter the DataFrame for minimum and maximum temperature preferences, and if the
 - Prompt the customer for the maximum temperature preference.
 - Prompt the customer to answer if he or she would like it to be raining or not, using input("Do you want it to be raining? (yes/no) ").
 - Prompt the customer to answer if he or she would like it to be snowing or not, using input("Do you want it to be snowing? (yes/no) ").
-- Our new hotel DataFrame looks similar to the following image:
+
+Our new hotel DataFrame looks similar to the following image:
 
 ### WeatherPy_challenge DataFrame <br/>
 | City    | Country | Max Temp | Current Description | Lat | Lng | Hotel Name |  
@@ -60,11 +78,12 @@ Filter the DataFrame for minimum and maximum temperature preferences, and if the
 | Sitka   | US      | 90.00    | clearsky            | 37.17   | -99.65 | Village Belart | 
 <br/>
 From the filtered DataFrame we added the cities to a marker layer map with a pop-up marker for each city that includes: 
+
 - Hotel name
 - City
 - Country
 - Current weather description with the maximum temperature
-
+<br/>
 ![MarkerMap](https://github.com/Shannon-Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_vacation_map1.png)
 
 
