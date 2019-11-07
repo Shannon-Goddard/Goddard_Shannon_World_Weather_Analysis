@@ -81,7 +81,7 @@ From the filtered DataFrame we added the cities to a marker layer map with a pop
 - Country
 - Current weather description with the maximum temperature
 <br/>
-![MarkerMap](https://github.com/Shannon-Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_vacation_map1.png)
+![MarkerMap](https://github.com/Shannon_Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_vacation_map1.png)
 
 
 
