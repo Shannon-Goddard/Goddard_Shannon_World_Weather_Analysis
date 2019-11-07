@@ -79,9 +79,10 @@ From the filtered DataFrame we added the cities to a marker layer map with a pop
 - Hotel name
 - City
 - Country
-- Current weather description with the maximum temperature
-<br/>
-![WeatherPy_vacation_map1](https://github.com/Shannon-Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_vacation_map1.png)
+- Current weather description with the maximum temperature<br/>
+
+![WeatherPy_vacation_map](https://github.com/Shannon-Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_vacation_map1.png)
+
 
 
 
