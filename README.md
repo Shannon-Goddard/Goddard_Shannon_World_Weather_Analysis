@@ -49,10 +49,10 @@ Our new hotel DataFrame should look similar to the following image:
 
 ### WeatherPy_challenge DataFrame <br/>
 | City    | Country | Max Temp | Current Description | Lat | Lng | Hotel Name |  
-| ------- |:--:|:-----:|:-------:|:-------:|:----------------:|:--:|:--:| --------------:|
-| Castro  | CL | 48.20 | -42.48  | -73.76  | scattered clouds | 61 | 40 | Hotel Gulmarg  | 
-| Lebu    | ET | 58.69 | 8.96    | 38.73   | light rain       | 83 | 72 | Jolysable      | 
-| Sitka   | US | 90.00 | 37.17   | -99.65  | clear sky        | 46 | 6  | Village Belart | 
+| ------- |:-------:|:--------:|:-------------------:|:---:|:---:| ----------:|
+| Castro  | CL      | 48.20    | scatterd clouds     | -42.48  | -73.76 | Hotel Gulmarg  | 
+| Lebu    | ET      | 58.69    | light rain          | 8.96    | 38.73  | Jolysable      | 
+| Sitka   | US      | 90.00    | clearsky            | 37.17   | -99.65 | Village Belart | 
 
 
 
