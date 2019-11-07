@@ -97,7 +97,7 @@ Importing the WeatherPy_vacation.csv file as a new DataFrame. From the vacation 
 
 For the travel_mode, we used either DRIVING, BICYCLING, or WALKING.<br/>
 
-![WeatherPy_travel_map]()
+![WeatherPy_travel_map](https://github.com/Shannon-Goddard/Goddard_Shannon_World_Weather_Analysis/blob/master/weather_data/WeatherPy_travel_map.png)
 
 
 
