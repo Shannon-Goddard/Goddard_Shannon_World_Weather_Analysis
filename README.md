@@ -19,7 +19,7 @@ By the end of this module, we will be able to:
 - Create heatmaps, and add markers using the Google Maps API.
 
 ## Challenge Overview
-For the new modifications to the PlanMyTrip app, we are asked to add more data to the database, or cities DataFrame, so that customers know the weather in the cities when they click on a pop-up marker. We’ll also need to add the amount of rainfall or snowfall within the last three hours so that customers can filter the DataFrame using input statements based on the temperature range and whether or not it is raining or snowing. Finally, we’ll need to create a directions layer Google map that shows the directions between multiple cities for travel.
+For the new modifications to the PlanMyTrip app, we are asked to add more data to the database, or cities DataFrame, so that customers know the weather in the cities when they click on a pop-up marker. We also added the amount of rainfall or snowfall within the last three hours so that customers can filter the DataFrame using input statements based on the temperature range and whether or not it is raining or snowing. Finally, we created a directions layer Google map that shows the directions between multiple cities for travel.
 
 ### Objectives:
 - Use nested try-except blocks
@@ -33,7 +33,7 @@ For the new modifications to the PlanMyTrip app, we are asked to add more data t
 ## Part 1
 ### Get the Weather Description and Amount of Precipitation for Each City
 
-We generated a new set of 1,500 random latitudes and longitudes.<br/>
+We generated a set of 1,500 random latitudes and longitudes.<br/>
 Got the nearest city using the citipy module.<br/>
 Performed an API call with the OpenWeatherMap.<br/>
 Retrieved the following information from the API call:<br/> 
@@ -45,7 +45,7 @@ Retrieved the following information from the API call:<br/>
 - Weather description (e.g., clouds, fog, light rain, clear sky)
 - Using a try-except block, if it is raining, get the amount of rainfall in inches for the last three hours. If it is not raining, add 0 inches for the city.
 - Using a try-except block, if it is snowing, get the amount of snow in inches for the last three hours. If it is not snowing, add 0 inches for the city.
-Add the data to a new DataFrame.
+Added the data to a new DataFrame.
 
 Our new DataFrame looks similar to the following image:
 
@@ -70,9 +70,10 @@ Our new hotel DataFrame looks similar to the following image:
 ### WeatherPy_challenge DataFrame <br/>
 | City    | Country | Max Temp | Current Description | Lat | Lng | Hotel Name |  
 | ------- |:-------:|:--------:|:-------------------:|:---:|:---:| ----------:|
-| Castro  | CL      | 48.20    | scatterd clouds     | -42.48  | -73.76 | Hotel Gulmarg  | 
-| Lebu    | ET      | 58.69    | light rain          | 8.96    | 38.73  | Jolysable      | 
-| Sitka   | US      | 90.00    | clearsky            | 37.17   | -99.65 | Village Belart | 
+| Huambo  | AO      | 72.52    | light rain     | -12.78  | -15.73 | Hotel Gulmarg  | 
+| Mbanza-Ngungu | CD      | 73.92    | light rain          | -5.25    | 14.87  | Jolysable      | 
+| Omboue  | GA      | 90.00    | moderate rain   | -1.57   | 9.26  | Village Belart | 
+| Moyale  | ET      | 77.72    | light rain      | 3.52    | 39.05 | Hotel Moyale   |
 <br/>
 From the filtered DataFrame we added the cities to a marker layer map with a pop-up marker for each city that includes: 
 
